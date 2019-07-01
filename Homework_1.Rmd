@@ -1,0 +1,40 @@
+---
+title: "Homework_1"
+author: "Kyungbo"
+date: '`r format(Sys.Date(), "%m-%d, %Y")`'
+output:
+  html_document:
+   theme: cerulean
+   highlight: tango
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+* **Short Video**
+* **Group Member(s)**
+* **R Markdown Syntax**
+
+## Short Video
+***GSS 2019***
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3dS81uwPIAA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Group Member(s)
+![Kyungbo Han](https://www.unige.ch/gsem/files/cache/ccd0cd1d64eb729d9f24dd7819d6c9fa_f3369.jpg)
+
+**Self-introduction**
+
+Hello everyone. I am Kyungbo, a first year PhD student in Economics at the Uiversity of Geneva. I am interested in environment and behavior economics. I am taking the R-progrmming for Data Science course to improve my R skills so that I can delve into climate data more smoothly and efficiently.
+
+**Courses of this year**
+
+Courses | Weeks 
+--- | ---
+Econometrics | 4 weeks 
+Microeconomics | 4 weeks 
+Macroeconomics | 4 weeks 
+
+## R Markdown Syntex
