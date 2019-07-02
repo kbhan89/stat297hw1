@@ -66,3 +66,12 @@ The values seen above are slightly different from the theoretical ones (i.e. 0 a
 hist(x, main="Normal distribution")
 ```
 
+**Equation**
+\begin{align}
+\mathbb{E}[var \{v_{1}(\hat{\theta},n) |\hat{\theta} \}] &=var \{v_{1}(\theta_{0}, n) \}+\mathbb{E}[\mathcal{O}_{p} \{D_{1}(\theta^{*},n)(\hat{\theta}-\theta_{0}), \cdots , D_{p}(\theta^{*},n)(\theta-\theta_{0}) \}] \\
+&= var \{v_{1}(\theta_{0}, n) \}+\mathcal{O}(n^{-2})
+\end{align}
+
+**In-line Equation**
+
+$A$ is defined as $A \equiv [a_{i,j=1,\cdots,p}]$
