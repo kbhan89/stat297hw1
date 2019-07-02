@@ -49,6 +49,20 @@ a <- 10^4
 ```{r, cache=T, dependson = "computeA"}
 (d <- a/10^3)
 ```
+**Simulation**
 
-****
+```{r}
+b <- 100
+x <- rnorm(b)
+head(x)
+median(x)
+mean(x)
+var(x)
+```
+The values seen above are slightly different from the theoretical ones (i.e. 0 and 1) since the random values were created by simulation. The values would get closer to 0 and 1 if we increase the sample size (i.e. b). It stems from the theorem **Law of Large Numbers**.
+
+**Histogram**
+```{r}
+hist(x, main="Normal distribution")
+```
 
