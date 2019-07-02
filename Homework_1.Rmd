@@ -75,3 +75,39 @@ hist(x, main="Normal distribution")
 **In-line Equation**
 
 $A$ is defined as $A \equiv [a_{i,j=1,\cdots,p}]$
+
+**Text in Blue**
+
+<span style="color:blue">"Vérité dans un temps, erreur dans un autre.”, Charles de Montesquieu</span>
+
+**More Info**
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+ 
+<button onclick="myFunction()">More info</button>
+ 
+<div id="myDIV">
+More information will be available soon.
+</div>
+
+
+**Color Box**
+
+<style>
+div.green pre { background-color:lightgreen; font-color:white; }
+</style>
+
+<div class = "green">
+```{r greenbox}
+##Important info
+```
+</div>
