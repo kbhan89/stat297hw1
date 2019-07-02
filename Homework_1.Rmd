@@ -38,3 +38,17 @@ Microeconomics | 4 weeks
 Macroeconomics | 4 weeks 
 
 ## R Markdown Syntex
+**Cache**
+
+```{r computeA, cache=T}
+a <- 10^4
+```
+```{r, cache=T}
+(d <- a/10^3)
+```
+```{r, cache=T, dependson = "computeA"}
+(d <- a/10^3)
+```
+
+****
+
